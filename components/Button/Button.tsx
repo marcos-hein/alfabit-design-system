@@ -15,7 +15,7 @@ function getVariant(
         ? "bg-disabled text-disabled"
         : "bg-quaternary text-primary";
     case "tertiary":
-      break;
+      return disabled ? "text-disabled" : "text-primary";
 
     default:
       return disabled ? "" : "";
