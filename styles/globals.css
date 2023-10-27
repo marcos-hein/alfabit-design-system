@@ -4,8 +4,7 @@
 
 @font-face {
   font-family: "Mulish";
-  src: url("../fonts/Mulish-Regular.woff2") format("woff2"),
-    url("../fonts/Mulish-Regular.woff") format("woff");
+  src: url("../fonts/Mulish-Regular.woff2") format("woff2"), url("../fonts/Mulish-Regular.woff") format("woff");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -76,9 +75,10 @@
     /* Font Size */
     --text-xs: 12px;
     --text-sm: 14px;
-    --text-nd: 16px;
+    --text-md: 16px;
     --text-lg: 18px;
     --text-xl: 20px;
+    --text-xxl: 24px;
   }
 
   .theme-violet {

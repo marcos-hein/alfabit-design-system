@@ -16,6 +16,7 @@ const config: Config = {
       md: "var(--text-md)",
       lg: "var(--text-lg)",
       xl: "var(--text-xl)",
+      xxl: "var(--text-xxl)",
     },
     screens: {
       mobile: "var(--screen-mobile)",
